@@ -95,18 +95,18 @@ export class NavService implements OnDestroy {
 
   MENUITEMS_andalus: Menu[] = [
     {
-      headTitle1: "Elandalus",
-      headTitle2: "Management ",
+      headTitle1: "Vape",
+      headTitle2: "Management SideBar",
     },
     {
-      title: "Product",
+      title: "CRUD",
       icon: "activity",
       type: "sub",
       badgeType: "success",
       children: [
         {
           path: "admin/ViewProduct",
-          title: "View-product",
+          title: "View-Crud",
           type: "link",
         },
       ],

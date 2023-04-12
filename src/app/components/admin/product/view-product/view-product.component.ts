@@ -23,14 +23,7 @@ img : string = Image;
   
 
 getproducts(){
-  this._ProductService.Get().subscribe((res) => {
-    this.products = res.data
   
-  },(err)=>{
-    console.log('their is a problem');
-  },() =>{
-    console.log('Completed');
-  });
 }
 
 productupdate(id : number){
